@@ -20,12 +20,13 @@
 
 .banner h1 {
     color: white;
+    font-size: 2rem;
 }
 
 .banner h3 {
     color: white;
     padding-top: 1vh;
-    margin-left: 2vh;
+    margin-left: 1rem;
 }
 
 .banner svg {
@@ -82,7 +83,7 @@ header .buscador svg {
     header button p {
         color: white;
         margin-left: 10px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
 
@@ -128,4 +129,25 @@ header .buscador svg {
 
     nav ul li:hover {
         color: aliceblue;
+    }
+
+    .cardsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    }
+
+    .card{
+        display: flex;
+        align-items: center;
+        height: 20vh;
+        width: 20vw;
+        
+    }
+
+    .card img {
+        height: 100px;
+        width: 100px;
     }
