@@ -8,7 +8,6 @@ body{
 
     background-color: #080F25;
     margin-left: 2vw;
-    
 }
 
 :root {
@@ -20,16 +19,12 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: var(--color-primario);
-    margin-top: 3vh;
-    margin-right: 4vw;
-    margin-left: 1vw;
 }
 
 nav .buscador input{
     border-radius: 20px;
     height: 2rem;
     background-color: var(--color-secundario);
-    
 }
 
 nav .buscador{
@@ -40,7 +35,6 @@ nav .buscador{
 nav .buscador i{
 color: #0F67B0;
 font-size: 2rem;
-margin-right: 2rem;
 }
 
 nav .menu {
@@ -50,9 +44,6 @@ nav .menu {
 }
 
 nav .menu .homebtn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: white;
     border-radius: 15px;
     width: 5.5rem;
@@ -60,7 +51,6 @@ nav .menu .homebtn{
 }
 nav .menu .homebtn b{
     color: black;
-    margin-left: 0.2rem;
 }
 nav .menu i{
     color: #0F67B0 ;
@@ -77,30 +67,25 @@ nav .menu .bi-bell-fill{
     color: white;
 }
 nav .menu img {
-    height: 2.5rem;
+    height: 3rem;
     border-radius: 20px;
 }
 
 nav .menu .userBtn{
-    display: flex;
-    align-items: center;
     color: white;
-    height: 3rem;
-    width: 12rem;
     background-color: var(--color-secundario);
-    border-radius: 20px;
 }
 
-nav .menu .userBtn i{
-    color: white;
+.perfil{
+    display: flex;
+    background-color: var(--color-secundario);
+    height: 40vh;
+    width: 25vw;
+    border-radius: 15px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    
 }
-
-nav .menu .bi-list{
-    color: white;
-}
-
-
-
 
 .people{
     display: flex;
@@ -132,4 +117,16 @@ nav .menu .bi-list{
     height: 2rem;
     width: 4rem;
     background-color: white;
+}
+
+.seccionUno{
+    display: flex;
+
+    background-color: var(--color-secundario);
+    height: 20vh;
+    width: 40vw;
+    border-radius: 15px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
 }
