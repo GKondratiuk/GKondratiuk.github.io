@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    background-color: #265073;
+    font-family: "Roboto Mono", monospace;
+}
+
+header{
+    display: grid;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+article{
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contacto{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F1FADA;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.curriculum{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F1FADA;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #F1FADA;
+    border: black solid 2px;
+}
+a button i{
+    background-color: #F1FADA;
+    font-size: 1.2rem;
+}
+a{
+    margin-right: 2%;
+}
+
