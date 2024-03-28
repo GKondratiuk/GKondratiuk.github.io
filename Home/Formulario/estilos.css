@@ -2,13 +2,27 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #265073;
+    font-size: 1rem;
 }
+
 h1{
     text-align: center;
+    color: #F1FADA;
+    font-size: 1.5rem;
 }
 
 section{
     display: grid;
     justify-content: center;
     margin-top: 2%;
+    color: #F1FADA;
+    gap: 1rem;
 }
+
+section input{
+    color: #F1FADA;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+} 
