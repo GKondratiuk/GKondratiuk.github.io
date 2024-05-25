@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #333;
+    height: 20vh;
+}
+
+
+header nav i{
+    display: none;
+    color: aliceblue;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+header nav ul{
+    display: flex;
+    margin-right: 2rem;
+    gap: 2rem;
+    list-style: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+header nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.sobreMi{
+   display: grid;
+   grid-template-columns: 50vw 40vw;
+   margin: 2rem;
+   margin-top: 15vh;
+   gap: 10vw;
+}
+.sobreMi h2{
+    font-size: 3rem;
+}
+.sobreMi p{
+    font-size: 1.5rem;
+}
+.sobreMi div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+.sobreMi div button{
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.sobreMi img{
+    width: 80%;
+    border-radius: 150px;
+}
+
+
+@media (max-width: 550px) {
+    header nav ul{
+        display: none;
+    }
+    header nav i{
+        display: flex;
+    }
+    .sobreMi h2{
+        font-size: 1.3rem;
+    }
+    .sobreMi p{
+        font-size: 1rem;
+    }
+
+  }
+
+  @media (max-width: 750px) {
+    .sobreMi{
+        grid-template-columns: 100%;
+    }
+  }
