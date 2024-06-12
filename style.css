@@ -33,8 +33,7 @@ header nav a{
 }
 
 .sobreMi{
-   display: grid;
-   grid-template-columns: 50vw 40vw;
+   display: flex;
    margin: 2rem;
    margin-left: 5%;
    margin-top: 15vh;
@@ -59,12 +58,17 @@ header nav a{
     font-size: 1.5rem;
 }
 .sobreMi img{
-    width: 70%;
+    height: 70vh;
     border-radius: 150px;
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
+    .sobreMi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     header nav ul{
         display: none;
     }
@@ -77,11 +81,19 @@ header nav a{
     .sobreMi p{
         font-size: 1rem;
     }
+    .sobreMi img{
+        height: 50vh;
+        width: 40vw;
+
+    }
 
   }
+  @media (max-width: 450px) {
 
-  @media (max-width: 750px) {
-    .sobreMi{
-        grid-template-columns: 100%;
+    .sobreMi img{
+        height: 40vh;
+        width: 60vw;
+
     }
   }
+ 
