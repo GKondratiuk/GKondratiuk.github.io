@@ -63,7 +63,7 @@ header nav a{
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     .sobreMi{
         display: flex;
         flex-direction: column;
@@ -82,17 +82,17 @@ header nav a{
         font-size: 1rem;
     }
     .sobreMi img{
-        height: 50vh;
-        width: 280px;
+        height: 30vh;
+        width: 250px;
 
     }
 
   }
-  @media (max-width: 450px) {
+  @media (max-width: 400px) {
 
     .sobreMi img{
-        height: 40vh;
-        width: 220px;
+        height: 23vh;
+        width: 180px;
     }
   }
  
