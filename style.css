@@ -93,6 +93,22 @@ header nav a{
     height: 50%;
 }
 
+.herramientas{
+    display: flex;
+    flex-direction: column;
+}
+.herramientas div{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap:wrap
+}
+.herramientas img {
+    height: 4rem;
+}
+.herramientas .iconos{
+    padding: 4%;
+}
 
 @media (max-width: 900px) {
     .sobreMi{
